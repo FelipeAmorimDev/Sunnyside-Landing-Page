@@ -520,3 +520,40 @@ a{
     padding: 64px 24px 80px;
    }
 }
+
+/* menu mobile */ 
+
+
+@media(max-width:900px){
+  .header__nav{
+    background-color: #fff;
+    position: absolute;
+    width: calc(100% - 72px);
+    top: 106px;
+    padding: 39px 0px 63px;
+    border-top: 24px solid #49BCF1;
+    border-right: 24px solid #fff;
+    
+  }
+
+  .header__nav.ativo{
+   display: flex;
+  }
+  .nav__list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0px;
+  }
+  .nav__link{
+    color: #808397;
+  }
+.contact-btn{
+    background-color: var(--cor-2);
+    color:#24303E !important;
+  }
+
+  .nav__link:last-child{
+    margin-top: 32px;
+  }
+}
