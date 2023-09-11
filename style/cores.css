@@ -1,0 +1,53 @@
+:root{
+  --cor-1:hsl(7, 99%, 70%);
+  --cor-2:hsl(51, 100%, 49%);
+  --cor-3:hsl(167, 40%, 24%);
+  --cor-4:hsl(198, 62%, 26%);
+  --cor-5:hsl(168, 34%, 41%);
+  --cor-6:hsl(212, 27%, 19%);
+  --cor-7:hsl(213, 9%, 39%);
+  --cor-8:hsl(232, 10%, 55%);
+  --cor-9:hsl(210, 4%, 67%);
+  --cor-10:hsl(0, 0%, 100%);
+}
+
+
+.cor-1{
+  color:var(--cor-1)
+}
+
+.cor-2{
+  color:var(--cor-2)
+}
+
+.cor-3{
+  color:var(--cor-3)
+}
+
+.cor-4{
+  color:var(--cor-4)
+}
+
+.cor-5{
+  color:var(--cor-5)
+}
+
+.cor-6{
+  color:var(--cor-6)
+}
+
+.cor-7{
+  color:var(--cor-7)
+}
+
+.cor-8{
+  color:var(--cor-8)
+}
+
+.cor-9{
+  color:var(--cor-9)
+}
+
+.cor-10{
+  color:var(--cor-10)
+}
