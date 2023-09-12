@@ -30,7 +30,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./readme/sunysidedesktop.png)
-![](./readme/sunysidemobile.png)
 
 ### Links
 
