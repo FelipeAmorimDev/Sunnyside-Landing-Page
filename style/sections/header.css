@@ -1,5 +1,5 @@
 .header__bg {
-  background-image: url("../../images/desktop/image-header.jpg");
+  background-image: url("../images/desktop/image-header.jpg");
   background-size: auto 800px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@
 
 @media (max-width:400px) {
   .header__bg {
-    background-image: url("../../images/mobile/image-header.jpg");
+    background-image: url("../images/mobile/image-header.jpg");
     background-size: cover;
   }
 
