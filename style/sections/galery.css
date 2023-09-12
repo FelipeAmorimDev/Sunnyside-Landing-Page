@@ -1,0 +1,12 @@
+/* Galery */
+
+.galery_bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width:900px) {
+  .galery_bg {
+    grid-template-columns: 1fr 1fr;
+  }
+}

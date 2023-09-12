@@ -1,0 +1,83 @@
+/* tranform your brand */
+
+.transform-brand__title {
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  color: var(--cor-6);
+  font-weight: 900;
+  letter-spacing: -0.29px;
+  margin-bottom: 32px;
+}
+
+.transform-brand__text {
+  color: var(--cor-8);
+  line-height: 30px;
+  letter-spacing: -0.13px;
+  margin-bottom: 40px;
+}
+
+.transform-brand__btn {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: var(--cor-6);
+  position: relative;
+  z-index: 1;
+}
+
+.transform-brand__btn::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 137px;
+  height: 10px;
+  background-color: #FAD400;
+  border-radius: 28px;
+  opacity: .2;
+  bottom: -2px;
+  left: -5px;
+  z-index: -1;
+  transition: .3s;
+}
+
+.transform-brand__btn:hover.transform-brand__btn::after {
+  opacity: 1;
+}
+
+.transform-brand__bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.transform-brand__description {
+  max-width: 445px;
+  place-self: center;
+  padding: 20px;
+}
+
+.transform-brand__picture {
+  flex: 1;
+}
+
+.transform-brand__picture img {
+  width: 100%;
+}
+
+@media (max-width:900px) {
+  .transform-brand__bg {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .transform-brand__picture {
+    order: -1;
+  }
+
+  .transform-brand__description {
+    padding: 64px 24px;
+
+  }
+
+  .transform-brand__title {
+    font-size: 32px;
+  }
+}
